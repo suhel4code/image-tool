@@ -1,11 +1,4 @@
-import {
-  Box,
-  Tooltip,
-  Typography,
-  Button,
-  TextField,
-  Paper,
-} from "@mui/material";
+import { Box, Typography, Button, TextField, Paper } from "@mui/material";
 import { useState } from "react";
 import { Comment } from "./ImagePreviewPage";
 import { nanoid } from "nanoid";

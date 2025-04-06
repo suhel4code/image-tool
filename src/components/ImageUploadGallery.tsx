@@ -20,10 +20,6 @@ export default function ImageUploadGallery() {
     if (stored) {
       setImages(JSON.parse(stored));
     }
-
-    window.addEventListener("storage", function (e) {
-      console.log("storage is cleared");
-    });
   }, []);
 
   function handleImageUpload(dataUrl: string) {

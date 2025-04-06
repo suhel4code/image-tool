@@ -40,7 +40,6 @@ export default function ImagePreviewPage() {
   const [selectedUser, setSelectedUser] = useState(values[0]);
   const [image, setImage] = useState<UploadedImage | null>(null);
   const [comments, setComments] = useState<Comment[]>([]);
-  const [prevComments, setPrevComments] = useState<Comment[]>([]);
   const [newCommentBox, setNewCommentBox] =
     useState<NewCommentInterface | null>(null);
 
